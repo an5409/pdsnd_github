@@ -13,6 +13,8 @@ UDACITY git Project
 bikeshare.py
 chicago.csv
 washington.csv
+new_york_city.csv
+
 
 ### Credits
 https://github.com/an5409/pdsnd_github
