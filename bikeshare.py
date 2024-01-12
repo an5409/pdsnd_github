@@ -1,3 +1,4 @@
+#유다시티 프로젝트
 import time
 import pandas as pd
 import numpy as np
@@ -63,7 +64,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#역통계
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -82,7 +83,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#여행시간 통계
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
@@ -117,7 +118,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#메인함수임
 def main():
     while True:
         city, month, day = get_filters()
@@ -135,3 +136,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
+
