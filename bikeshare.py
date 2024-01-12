@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#필터함수
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -45,7 +46,7 @@ def load_data(city, month, day):
 
     return df
 
-
+#시간통계
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
