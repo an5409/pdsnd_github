@@ -1,3 +1,4 @@
+#유다시티 프로젝트
 import time
 import pandas as pd
 import numpy as np
@@ -117,7 +118,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#메인함수임
 def main():
     while True:
         city, month, day = get_filters()
@@ -135,3 +136,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
+
